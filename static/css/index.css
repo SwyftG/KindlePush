@@ -1,0 +1,23 @@
+.post_block{
+    display: block;
+}
+
+.post_id{
+    display: inline;
+}
+
+.post_url{
+    display: inline;
+}
+
+.post_time{
+    display: inline;
+}
+
+.toptitle {
+    display: inline;
+}
+
+.img404{
+    display: inline;
+}

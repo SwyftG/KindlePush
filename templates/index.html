@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>皮克啪的铲屎官--技术讨论-{{today}}</title>
+    <link rel="stylesheet" href="../static/css/index.css">
+</head>
+<body>
+<h1>技术讨论  {{today}}</h1>
+
+{% for element in info %}
+<div class="post_block">
+
+   <p class="post_id">{{element['post_id']}}</p>
+    <a class="post_url" href="{{element['post_url']}}" data-url="{{element['post_url']}}" target="_blank">{{element['post_title']}}</a>
+   <p class="post_time">{{element['post_time']}}</p>
+
+</div>
+{% end %}
+
+<h1>喜欢的朋友来关注一波公众号，方便获取更多资讯</h1>
+<img src="../static/img/qrcode.jpg" height="400" width="400"/>
+
+</body>
+</html>
